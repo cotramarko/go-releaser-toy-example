@@ -49,3 +49,10 @@ signs:
   - artifacts: checksum
     cmd: gpg2
     args: ["--batch", "-u", "{{ .Env.GPG_FINGERPRINT }}", "--output", "${signature}", "--detach-sign", "${artifact}"]
+
+brews:
+- name: go-releaser-toy-example
+  homepage: https://github.com/cotramarko/go-releaser-toy-example.
+  tap:
+    owner: cotramarko
+    name: homebrew-tools
