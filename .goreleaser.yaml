@@ -52,7 +52,7 @@ signs:
 
 brews:
 - name: go-releaser-toy-example
-  homepage: https://github.com/cotramarko/go-releaser-toy-example.
+  homepage: https://github.com/cotramarko/homebrew-tools
   tap:
     owner: cotramarko
     name: homebrew-tools
